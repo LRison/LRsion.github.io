@@ -1,0 +1,575 @@
+/*
+* @Author: HP
+* @Date:   2019-12-28 16:36:50
+* @Last Modified by:   HP
+* @Last Modified time: 2020-01-13 17:31:34
+*/
+body{
+	background: #ffffff;
+	min-width: 976px;
+}
+.nav{
+	height: 30px;
+	background: #323232;
+	text-align: center;
+	position: relative;
+}
+.nav h1{
+	margin-left: 30px;
+	margin-top: 6px;
+	width: 58px;
+	float: left;
+}
+.nav h1>img{
+	height: 18px;
+}
+.nav>ul>li{
+	float: left;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+	padding: 0px 6px;
+	line-height: 30px;
+	font-weight: 700;
+	position: relative;
+}
+.nav>ul>li:nth-of-type(5){
+	width: 88px;
+}
+.nav>ul>li:nth-of-type(7){
+	width: 88px;
+}
+.nav>ul{
+	height: 30px;
+	margin-left: 32px;
+	width: 555px;
+	float: left;
+}
+.nav>ul>li>a:hover{
+	color: #10b03b;
+}
+.box li:nth-of-type(3)>ul{
+	background: #ffffff;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	float: left;
+	width: 195px;
+	border: 1px solid #f5f5f5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	display: none;
+
+}
+.box li{
+	height: 30px;
+	text-align: left;
+	padding-left: 20px
+}
+.box li:hover{
+	color: #10b041;
+}
+.box li .hotela:hover{
+	color: #10b041;
+}
+.box li:nth-of-type(3)>ul span{
+	font-size: 12px;
+	margin: 7px;
+	padding: 5px 4px;
+	background: #ff6553;
+	color: #ffffff;
+}
+.box li:nth-of-type(3)>ul .icon-jiantou{
+	background: none;
+	color: #c0c0c0;
+}
+.communityul li{
+	position: relative;
+}
+.forum{
+	width: 610px;
+	height: 352px;
+	background: #ffffff;
+	position: absolute;
+	left: 200px;
+	top: -10px;
+	border-radius: 5px;
+	border: 1px solid #f3f3f3;
+	color: #323232;
+	display: none;
+}
+.store ul a{
+	color: black;
+}
+.hotel ul a{
+	color: black;
+}
+.community ul a{
+	color: black;
+}
+
+
+.forum div{
+	margin-left: 33px;
+	background: #ffffff;
+	width: 475px;
+	height: 40px;
+	float: left;
+}
+.forum .oceania{
+	margin-left: 18px;
+}
+.forum .europe,.forum .asia{
+	height: 60px;
+	padding-bottom: 10px;
+	
+}
+.forum b{
+	float: left;
+	margin-right: 16px;
+	font-size: 13px;
+	color: #323232;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 6px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+.communityul .forum .asia>b,.communityul .forum .europe>b{
+	float: left;
+	margin-right: 13px;
+	font-size: 13px;
+	color: #323232;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 3px;
+	margin-top: 0px;
+}
+.forum b:hover{
+	background: #e3fae1;
+}
+.forum p{
+	line-height: 40px;
+	float: left;
+}
+.hot{
+	float: left;
+	color: #323232;
+}
+.forum .all{
+	float: right;
+	margin-right: 25px;
+	color: #323232;
+}
+.forum p,li:hover{
+	color: #323232;
+}
+.forum li:nth-of-type(1){
+	border-bottom: 1px solid #ededed;
+	height: 40px;
+}
+.forum li:nth-of-type(2),li:nth-of-type(3),li:nth-of-type(4),li:nth-of-type(5),li:nth-of-type(6){
+	border-bottom: 1px dashed #ededed; 
+}
+.forum li:nth-of-type(2),.forum li:nth-of-type(5),.forum li:nth-of-type(6),.forum li:nth-of-type(7){
+	height: 40px;
+}
+.forum li:nth-of-type(3){
+	height: 70px;
+}
+.forum li:nth-of-type(4){
+	height: 70px;
+}
+ 
+.box li:nth-of-type(5)>ul{
+	background: #ffffff;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	float: left;
+	width: 140px;
+	line-height: 32px;
+	border: 1px solid #f5f5f5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	display: none;
+
+}
+.box li:nth-of-type(6)>ul{
+	background: #ffffff;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	float: left;
+	width: 104px;
+	line-height: 32px;
+	border: 1px solid #f5f5f5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+	display: none;
+
+}
+.box>li>ul>li:hover{
+	background-color: #e3fae1;
+}
+.box>ul>li>a{
+	color: #636363;
+	line-height: 
+}
+
+.nav a{
+	text-decoration: none;
+	color: #c0c0c0;
+	cursor: pointer;
+}
+.smalllable img{
+	height: 12px;
+	position: absolute;
+	left: 50px;
+	top: 0px;
+}
+.smalllable1 img{
+	height: 12px;
+	position: absolute;
+	left: 63px;
+	top: 0px;
+}
+.smalllable .tail{
+	width: 10px;
+	height: 7px;
+	position: absolute;
+	margin-right: 6px;
+	top: 12px;
+	left: 56px;
+	background: url('http://static.qyer.com/models/common/component/headfoot/icon/nav/flag-tail.svg')0 0/contain no-repeat;
+}
+.smalllable1 .tail{
+	width: 10px;
+	height: 7px;
+	position: absolute;
+	margin-right: 6px;
+	top: 12px;
+	left: 69px;
+	background: url('http://static.qyer.com/models/common/component/headfoot/icon/nav/flag-tail.svg')0 0/contain no-repeat;
+}
+.navright{
+	height: 30px;
+	width: 250px;
+	background: none;
+	float: right;
+	margin-left: 16px;
+}
+.navlogin{
+	margin-right: 30px;
+	color: #c0c0c0;
+	float: right;
+	font-size: 14px;
+	line-height: 30px;
+}
+.navlogin a:hover{
+	color: #10b041;
+}
+.navregister{
+	float: right;
+	margin-right: 15px;
+	margin-right: 13px;
+	color: #c0c0c0;
+	font-size: 14px;
+	line-height: 30px;
+}
+.navregister a:hover{
+	color: #10b041;
+}
+.navright span{
+	line-height: 30px;
+	color: #c0c0c0;
+	margin-left: 10px;
+	float: left;
+}
+.navright .icon-weixin{
+	/* float: right;
+	margin-right: 10px; */
+}
+.navright .icon-weixin:hover{
+	color: #10b041;
+}
+.navright .icon-weibo{
+	/* float: right;
+	margin-right: 10px; */
+	font-size: 18px;
+}
+.navright .icon-weibo:hover{
+	color: #10b041;
+}
+.navright .icon-qqchat{
+	/* float: right;
+	margin-right: 10px; */
+	font-size: 18px;
+}
+.navright .icon-qqchat:hover{
+	color: #10b041;
+}
+.navright .icon-icon_taobao{
+	/* float: right;
+	margin-right: 10px; */
+	font-size: 23px;
+	color: #ff5300;
+}
+.searchbox{
+	width: 200px;
+	float: right;
+	position: relative;
+}
+.searchbox input{
+	width: 0px;
+	height: 20px;
+	position:absolute;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	right: 0px;
+	top: 5px;
+	padding: 0px;
+	transition: width 0.5s ;
+	background: #ffffff;
+}
+.searchbox span{
+	line-height: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	margin-right: 5px;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+
+}
+.searchbox span:hover{
+	color: black;
+}
+.main{
+	height: 122px;
+	margin: 0px auto;
+	border-bottom: 2px solid #d7d7d7;
+	background: none;
+}
+.maintext{
+	margin: 0px auto;
+	background: #ffffff;
+	width: 976px;
+	height: 122px;
+	/* position: relative; */
+}
+.maintop{
+	margin: 21px auto;
+	float: left;
+	background: none;
+	width: 100%;
+	/* position: absolute; */
+}
+
+.text{
+	background: none;
+}
+.qiongyou{
+	margin-left:0px; 
+}
+.qiongyou a{
+	color: #0073c6;
+	text-decoration: none;
+}
+.qiongyou a:hover{
+	text-decoration: underline;
+}
+.space{
+	font-family: \5b8b\4f53,sans-serif;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.ticket{
+	color: #636363;
+}
+.mainbottom{
+	margin: 0px auto;
+	background: none;
+	float: left;
+	width: 100%;
+	/* position: absolute; */
+}
+h4{
+	font-size: 36px;
+	line-height: 38px;
+	margin-right: 26px;
+	float: left;
+	color: #17784b;
+}
+.mainbottom p{
+	color: #636363;
+	background: none;
+	float: left;
+	font-size: 18px;
+	line-height: 20px;
+	padding-top: 18px;
+}
+.con{
+	margin: 0px auto;
+	background: #ffffff;
+	height: 339px;
+	width: 976px;
+}
+.search{
+	height: 285px;
+	width: 678px;
+	margin-top: 50px;
+	margin-bottom: 99px;
+	margin-right: 30px;
+	border: 1px solid #d7d7d7;
+	background: #fcfcfc;
+	float: left;
+}
+input{
+	outline: none;
+	padding: 5px 5px;
+}
+.searchtop{
+	height: 12px;
+	width: 638px;
+	margin: 0px auto;
+	background: #fcfcfc;
+	padding: 21px 0px 15px;
+	font-size: 12px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.searchtop input>label{
+	margin-bottom: 0px;
+}
+.searchtop label{
+	margin-right: 28px;
+}
+.search-item{
+	height: 75px;
+	width: 638px;
+	background: #fcfcfc;
+	margin: 0 auto;
+}
+.search-item p{
+	font-size: 12px;
+	padding: 20px 0px 5px;
+	background: #fcfcfc;
+	line-height: 14px;
+	color: #636363;
+	font-weight: 600;
+}
+.search-item input{
+	width: 270px;
+	height: 24px;
+	border: 1px solid #c0c0c0;
+}
+input::-webkit-input-placeholder{
+	font-size: 14px;
+}
+.start,.arrive{
+	float: left;
+	width: 282px;
+}
+
+.change{
+	height: 24px;
+	width: 36px;
+	background: url('../images/flightconversionarrow.png')no-repeat;
+	background-position: 0px -30px;
+	float: left;
+	margin: 44px 19px 0px;
+	cursor: pointer;
+}
+.flightdate{
+	height: 69px;
+	width: 638px;
+	background: #fcfcfc;
+	margin: 0px auto;
+}
+.go,.back{
+	float: left;
+	width: 132px;
+}
+
+.flightdate p{
+	font-size: 12px;
+	padding: 20px 0px 5px;
+	background: #fcfcfc;
+	line-height: 14px;
+	color: #636363;
+	font-weight: 600;
+}
+.listarrow{
+	height: 30px;
+	width: 18px;
+	float: left;
+	margin-top: 38px;
+	background: url('../images/listarrow.png')no-repeat center center;
+
+}
+.flightdate input{
+	width: 120px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	padding: 5px 5px;
+	float: left;
+	border: 1px solid #c0c0c0;
+	background: #fff url('../images/icon_calendar.png')no-repeat 112px 6px;
+}
+.flightbutton{
+	width: 638px;
+	background: #fcfcfc;
+	margin: 0px auto;
+	padding-top: 30px;
+	text-align: center;
+}
+.flightbutton input{
+	height: 42px;
+	width: 423px;
+	background: url('http://static.qyer.com/images/flight/flysch_submitbg.png')no-repeat 0 0;
+	border-radius: 5px;
+	margin:0px auto;
+	border: none;
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	padding-left: 215px;
+	margin-left: 215px;
+}
+.searchaside{
+	width: 215px;
+	height: 285px;
+	background: #ffffff;
+	float: left;
+	margin-top: 50px;
+	margin-left: 0px;
+}
+.searchasidetop{
+	font-size: 18px;
+	color: #636363;
+	margin-bottom: 12px;
+}
+.searchaside ul{
+	margin-bottom: 21px;
+}
+.searchaside li{
+	font-size: 14px;
+	line-height: 26px;
+	color: #636363;
+}
+.searchaside img{
+	height: 9px;
+	margin-right: 6px;
+}
+.searchasidebottom{
+	font-size: 14px;
+	color: #636363;
+}

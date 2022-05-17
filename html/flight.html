@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>机票预订_特价机票查询_打折机票-穷游网</title>
+		<link rel="stylesheet" href="../css/cssreset.css">
+		<link rel="stylesheet" href="../css/flightstyle.css">
+		<link rel="shortcut icon" href="../images/favicon.ico">
+		<link rel="stylesheet" href="../css/iconfont.css">
+		<script src="../js/jquery-3.0.0.js"></script>
+	</head>
+	<body>
+		<div class="nav">
+			<h1>&nbsp;</h1>
+			<ul class="box">
+				<li>
+					<a href="https://place.qyer.com/">目的地</a>
+				</li>
+				<li>
+					<a href="http://guide.qyer.com/">锦囊</a>
+				</li>
+				<li class="community">
+					<a href="https://bbs.qyer.com/" class="communityaa">社区<span class="iconfont icon-linecar105"></span></a>
+					<ul class="communityul">
+						<li class="travel"><a href="#">旅游论坛<span class="iconfont icon-jiantou"></span></a>
+						<ul class="forum">
+							<li><p class="hot">热门版块</p><p class="all">全部板块</p></li>
+							<li><p>兴趣小组</p>
+							<div>
+								<b>结伴同游</b>
+								<b>签证</b>
+								<b>旅行摄影</b>
+								<b>潜水俱乐部</b>
+								<b>带孩子旅行</b>
+								<b>自驾</b>
+							</div>
+							</li>
+							<li><p>欧洲</p>
+							<div class="europe">
+								<b>法国/摩纳哥</b>
+								<b>德国</b>
+								<b>英国/爱尔兰</b>
+								<b>瑞士/列支敦士登</b>
+								<b>土耳其</b>
+								<b>挪威/瑞典/芬兰/丹麦/冰岛</b>
+								<b>意大利/梵蒂冈/圣马力诺/马耳他</b>
+							</div>
+							</li>
+							<li><p>亚洲</p>
+							<div class="asia">
+								<b>台湾</b>
+								<b>日本</b>
+								<b>泰国</b>
+								<b>新加坡</b>
+								<b>斯里兰卡</b>
+								<b>香港/澳门</b>
+								<b>马来西亚/文莱</b>
+								<b>柬埔寨</b>
+								<b>马尔代夫</b>
+								<b>缅甸</b>
+								<b>伊朗</b>
+								<b>印度/孟加拉</b>
+							</div>
+							</li>
+							<li><p>美洲</p>
+							<div>
+								<b>加拿大</b>
+								<b>美国</b>
+								<b>中美</b>
+								<b>南美/南极</b>
+							</div>
+							</li>
+							<li><p>大洋洲</p>
+							<div class="oceania">
+								<b>澳大利亚</b>
+								<b>新西兰</b>
+								<b>太平洋海岛</b>
+							</div>
+							</li>
+							<li><p>非洲</p>
+							<div>
+								<b>东非地区</b>
+								<b>非洲海岛</b>
+								<b>北非地区</b>
+								<b>非洲其他国家</b>
+							</div>
+							</li>
+						</ul>
+						</li>
+
+						<li><a href="#">旅行专栏<span>NEW</span></a></li>
+
+						<li><a href="#">旅行问答</a></li>
+
+						<li><a href="#">旅行生活分享平台</a></li>
+
+						<li><a href="#">JAN旅行生活美学</a></li>
+
+						<li><a href="#">Biu伴（原结伴同游）</a></li>
+
+						<li><a href="#">负责任的旅行</a></li>
+
+						<li><a href="#">特别策划</a></li>
+
+						<li><a href="#">旅行精选视频</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="http://plan.qyer.com/">行程助手</a>
+				</li>
+				<li class="store">
+					<a href="http://z.qyer.com/" class="storea">商城<span class="iconfont icon-linecar105"></span><i></i><span class="smalllable"><img src="../images/flightsmalllable.gif" alt=""><i class="tail"></i></span>
+					</a>
+					<ul class="storeul">
+						<li><a href="#"><span class="iconfont icon-shoutibao"></span>&nbsp;机酒自由行</a></li>
+
+						<li><a href="#"><span class="iconfont icon-flag"></span>&nbsp;当地玩乐</a></li>
+
+						<li><a href="#"><span class="iconfont icon-changyongicon-"></span>&nbsp;签证</a></li>
+
+						<li><a href="#"><span class="iconfont icon-yusan"></span>&nbsp;保险</a></li>
+
+						<li><a href="#"><span class="iconfont icon-qiche"></span>&nbsp;租车自驾</a></li>
+
+						<li><a href="#"><span class="iconfont icon-chuan1"></span>&nbsp;邮轮</a></li>
+
+						<li><a href="#"><span class="iconfont icon-chuan"></span>&nbsp;河轮</a></li>
+
+						<li><a href="#"><span class="iconfont icon-geren"></span>&nbsp;私人定制</a></li>
+
+						<li><a href="#"><span class="iconfont icon-tielu"></span>&nbsp;欧洲铁路</a></li>
+					</ul>
+				</li>
+				<li class="hotel">
+					<a href="http://hotel.qyer.com/" class="hotela">酒店·民宿<span class="iconfont icon-linecar105"></span></a>
+					<ul class="hotelul">
+						<li><a href="#">酒店</a></li>
+
+						<li><a href="#">爱彼迎</a></li>
+
+						<li><a href="#">华人旅馆</a></li>
+					</ul>
+				</li>
+				<li>
+				<a href="https://www.qyer.com/hoteldeal/">特价酒店<span class="smalllable1"><img src="../images/flightlable.png" alt=""><i class="tail"></i></span></a>
+				</li>
+			</ul>
+			<div class="navright">
+				<div class="navlogin"><a href="login.html">登录</a></div>
+				<div class="navregister"><a href="#">注册</a></div>
+				<span>|</span>
+				<a href="#"><span class="iconfont icon-icon_taobao"></span></a>
+				<a href="#"><span class="iconfont icon-qqchat"></span></a>
+				<a href="#"><span class="iconfont icon-weibo"></span></a>
+				<a href="#"><span class="iconfont icon-weixin"></span></a>	
+			</div>
+			<div class="searchbox">
+				<input type="text">
+				<span class="iconfont icon-search"></span>
+			</div>
+
+
+		</div>
+		<div class="main">
+		<div class="maintext">
+			<div class="maintop">
+			<div class="text">
+				<span class="qiongyou"><a href="http://www.qyer.com">旅游</a></span>
+				<span class="space">></span>
+				<span class="ticket">机票</span>
+				</div>
+			</div>
+			<div class="mainbottom">
+				<h4>机票</h4>
+				<p>帮你大海捞针</p>
+			</div>
+			</div>
+		</div>
+		<div class="con">
+		<form action="">
+			<div class="search">
+				<div class="searchtop">
+					<label for="return"><input type="radio" name="select" id="return" checked="" class="inputone">往返</label>
+					<label for="oneway"><input type="radio" name="select" id="oneway" class="inputtwo">单程</label>
+				</div>
+				<div class="search-item">
+					<div class="start">
+						<p class="flightsetip">出发</p>
+						<input type="text" placeholder="请输入出发城市">
+					</div>
+					<div class="change"></div>
+					<div class="arrive">
+						<p class="flightsetip">到达</p>
+						<input type="text" placeholder="请输入到达城市">
+					</div>
+				</div>
+				<div class="current">
+				<div class="flightdate">
+					<div class="go">
+						<p>去程日期</p>
+						<input type="text">
+					</div>
+					<div class="listarrow"></div>
+					<div class="back">
+						<p>返程日期</p>
+						<input type="text">
+					</div>
+				</div>
+				</div>
+				<div class="flightbutton">
+					<input type="button">
+				</div>
+			</div>
+			</form>
+			<div class="searchaside">
+				<p class="searchasidetop">六重机票服务保障</p>
+				<ul>
+					<li><img src="../images/listarrow.png" alt=""><b>第一重</b>&nbsp;&nbsp;&nbsp;&nbsp;价格有保证 出行有保障</li>
+					<li><img src="../images/listarrow.png" alt=""><b>第二重</b>&nbsp;&nbsp;&nbsp;&nbsp;一站式售后保障</li>
+					<li><img src="../images/listarrow.png" alt=""><b>第三重</b>&nbsp;&nbsp;&nbsp;&nbsp; 旅行预警保障</li>
+					<li><img src="../images/listarrow.png" alt=""><b>第四重</b>&nbsp;&nbsp;&nbsp;&nbsp; 重大自然灾害保障基金</li>
+					<li><img src="../images/listarrow.png" alt=""><b>第五重</b>&nbsp;&nbsp;&nbsp;&nbsp;  特殊原因退订保障</li>
+					<li><img src="../images/listarrow.png" alt=""><b>第六重</b>&nbsp;&nbsp;&nbsp;&nbsp;  应急援助保障</li>
+				</ul>
+				<p class="searchasidebottom">客服热线：4006913510</p>
+			</div>
+		</div>
+		<script src="../js/flightjs.js"></script>
+
+	</body>
+</html>
